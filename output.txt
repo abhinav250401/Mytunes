@@ -1,0 +1,5 @@
+Welcome to my first C++ Program under the C++ placement
+Hey lad
+This is a sample program for addition
+Enter the two numbers
+The sum of the given numbers is10623584Thank you

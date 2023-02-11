@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imj.jpg);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+nav{
+    line-height: 70px;
+    background-color: black;
+padding: 0 80px;
+box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+
+}
+div.container{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+div.container h3{
+    font-size: 1.7em;
+    font-weight: 800;
+    color:white;
+}
+
+div.menu
+{
+border: 1px solid none;
+height: 80px;
+margin-top: -20px;
+background-color: black;
+
+}
+ul{
+float:left;
+margin: 30px 230px;
+}
+ul li{
+    float: left;
+    margin: 0px 50px;
+    list-style-type: none;
+}
+ul li a{
+    color: ghostwhite;
+}
+ul li a:hover{
+    color:darkred
+}
+div.main{
+    width:400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register
+{
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    color:white
+}
+form#register
+{
+    margin: 40px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-style: initial;
+}
+input#name
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#age
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#email
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#pass
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#cpass
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+select#lang
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+input#register
+{
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+
+}
+input#button
+{
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+
+}
+input#fb
+{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+}
